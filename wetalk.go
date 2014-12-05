@@ -16,13 +16,12 @@
 package main
 
 import (
+	"github.com/alphaperfect/wetalk/routers"
+	"github.com/alphaperfect/wetalk/routers/auth"
+	"github.com/alphaperfect/wetalk/setting"
 	"github.com/astaxie/beego"
-	"github.com/beego/social-auth"
-
 	"github.com/astaxie/beego/orm"
-	"github.com/beego/wetalk/routers"
-	"github.com/beego/wetalk/routers/auth"
-	"github.com/beego/wetalk/setting"
+	"github.com/beego/social-auth"
 	_ "github.com/go-sql-driver/mysql"
 	. "github.com/qiniu/api/conf"
 )

@@ -17,7 +17,7 @@ package auth
 import (
 	"github.com/astaxie/beego/orm"
 
-	"github.com/beego/wetalk/modules/models"
+	"github.com/alphaperfect/wetalk/modules/models"
 )
 
 func UserFollow(user *models.User, theUser *models.User) {

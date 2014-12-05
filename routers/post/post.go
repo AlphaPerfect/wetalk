@@ -16,10 +16,10 @@ package post
 
 import (
 	"github.com/astaxie/beego"
-	"github.com/beego/wetalk/modules/models"
-	"github.com/beego/wetalk/modules/post"
-	"github.com/beego/wetalk/routers/base"
-	"github.com/beego/wetalk/setting"
+	"github.com/alphaperfect/wetalk/modules/models"
+	"github.com/alphaperfect/wetalk/modules/post"
+	"github.com/alphaperfect/wetalk/routers/base"
+	"github.com/alphaperfect/wetalk/setting"
 )
 
 //Post List Router

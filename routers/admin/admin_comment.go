@@ -20,9 +20,9 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 
-	"github.com/beego/wetalk/modules/models"
-	"github.com/beego/wetalk/modules/post"
-	"github.com/beego/wetalk/modules/utils"
+	"github.com/alphaperfect/wetalk/modules/models"
+	"github.com/alphaperfect/wetalk/modules/post"
+	"github.com/alphaperfect/wetalk/modules/utils"
 )
 
 type CommentAdminRouter struct {

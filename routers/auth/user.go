@@ -17,10 +17,10 @@ package auth
 import (
 	"github.com/astaxie/beego/orm"
 
-	"github.com/beego/wetalk/modules/models"
-	"github.com/beego/wetalk/modules/utils"
-	"github.com/beego/wetalk/routers/base"
-	"github.com/beego/wetalk/setting"
+	"github.com/alphaperfect/wetalk/modules/models"
+	"github.com/alphaperfect/wetalk/modules/utils"
+	"github.com/alphaperfect/wetalk/routers/base"
+	"github.com/alphaperfect/wetalk/setting"
 )
 
 type UserRouter struct {

@@ -5,8 +5,8 @@ An open source project for Gopher community.
 ### Usage
 
 ```
-go get -u github.com/beego/wetalk
-cd $GOPATH/src/github.com/beego/wetalk
+go get -u github.com/alphaperfect/wetalk
+cd $GOPATH/src/github.com/alphaperfect/wetalk
 ```
 
 I suggest you [update all Dependencies](#dependencies)
@@ -35,33 +35,28 @@ Contrib
 * fsnotify [https://github.com/howeyc/fsnotify](https://github.com/howeyc/fsnotify)
 * resize [https://github.com/nfnt/resize](https://github.com/nfnt/resize)
 * blackfriday [https://github.com/slene/blackfriday](https://github.com/slene/blackfriday)
-
-Plz Note: WeTalk always use Beego develop branch
-
-```
-go get -u github.com/astaxie/beego
-cd $GOPATH/src/github.com/astaxie/beego
-git checkout develop
-```
+* Qiniu [https://github.com/qiniu](https://github.com/qiniu)
 
 Update all Dependencies
 
 ```
-go get -u github.com/beego/social-auth
-go get -u github.com/beego/compress
-go get -u github.com/beego/i18n
-go get -u github.com/go-sql-driver/mysql
-go get -u github.com/Unknwon/goconfig
-go get -u github.com/howeyc/fsnotify
-go get -u github.com/nfnt/resize
-go get -u github.com/slene/blackfriday
+go get -u -v github.com/beego/social-auth
+go get -u -v github.com/beego/compress
+go get -u -v github.com/beego/i18n
+go get -u -v github.com/go-sql-driver/mysql
+go get -u -v github.com/Unknwon/goconfig
+go get -u -v github.com/howeyc/fsnotify
+go get -u -v github.com/nfnt/resize
+go get -u -v github.com/slene/blackfriday
+go get -u -v github.com/qiniu/api
+go get -u -v github.com/qiniu/bytes
 ```
 
 ### Static Files
 
 WeTalk use `Google Closure Compile` and `Yui Compressor` compress js and css files.
 
-So you could need Java Runtime. Or close this feature in code by yourself.
+So you cou3ld need Java Runtime. Or close this feature in code by yourself.
 
 ### WeTalk in world
 

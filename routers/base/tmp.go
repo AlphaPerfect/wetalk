@@ -15,7 +15,7 @@
 package base
 
 import (
-	"github.com/beego/wetalk/modules/mailer"
+	"github.com/alphaperfect/wetalk/modules/mailer"
 )
 
 type TestRouter struct {

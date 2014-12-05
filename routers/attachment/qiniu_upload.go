@@ -15,20 +15,18 @@
 package attachment
 
 import (
-	"github.com/beego/wetalk/setting"
+	"github.com/alphaperfect/wetalk/modules/attachment"
+	"github.com/alphaperfect/wetalk/modules/models"
+	"github.com/alphaperfect/wetalk/modules/utils"
+	"github.com/alphaperfect/wetalk/routers/base"
+	"github.com/alphaperfect/wetalk/setting"
+	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/context"
 	"io/ioutil"
 	"net/http"
 	"path"
 	"strings"
 	"time"
-
-	"github.com/astaxie/beego"
-	"github.com/astaxie/beego/context"
-
-	"github.com/beego/wetalk/modules/attachment"
-	"github.com/beego/wetalk/modules/models"
-	"github.com/beego/wetalk/modules/utils"
-	"github.com/beego/wetalk/routers/base"
 )
 
 type QiniuUploadRouter struct {

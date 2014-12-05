@@ -1,9 +1,9 @@
 package post
 
 import (
-	"github.com/beego/wetalk/modules/models"
-	"github.com/beego/wetalk/modules/post"
-	"github.com/beego/wetalk/routers/base"
+	"github.com/alphaperfect/wetalk/modules/models"
+	"github.com/alphaperfect/wetalk/modules/post"
+	"github.com/alphaperfect/wetalk/routers/base"
 )
 
 type NoticeRouter struct {

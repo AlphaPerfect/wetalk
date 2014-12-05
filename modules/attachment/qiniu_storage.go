@@ -2,8 +2,8 @@ package attachment
 
 import (
 	"fmt"
-	"github.com/beego/wetalk/modules/models"
-	"github.com/beego/wetalk/modules/utils"
+	"github.com/alphaperfect/wetalk/modules/models"
+	"github.com/alphaperfect/wetalk/modules/utils"
 	"github.com/qiniu/api/io"
 	"image"
 	"image/gif"

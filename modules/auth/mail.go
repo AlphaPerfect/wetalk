@@ -19,9 +19,9 @@ import (
 
 	"github.com/beego/i18n"
 
-	"github.com/beego/wetalk/modules/mailer"
-	"github.com/beego/wetalk/modules/models"
-	"github.com/beego/wetalk/modules/utils"
+	"github.com/alphaperfect/wetalk/modules/mailer"
+	"github.com/alphaperfect/wetalk/modules/models"
+	"github.com/alphaperfect/wetalk/modules/utils"
 )
 
 // Send user register mail with active code

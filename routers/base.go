@@ -17,15 +17,15 @@ package routers
 
 import (
 	"fmt"
+	"github.com/alphaperfect/wetalk/routers/admin"
+	"github.com/alphaperfect/wetalk/routers/api"
+	"github.com/alphaperfect/wetalk/routers/attachment"
+	"github.com/alphaperfect/wetalk/routers/auth"
+	"github.com/alphaperfect/wetalk/routers/base"
+	"github.com/alphaperfect/wetalk/routers/page"
+	"github.com/alphaperfect/wetalk/routers/post"
+	"github.com/alphaperfect/wetalk/setting"
 	"github.com/astaxie/beego"
-	"github.com/beego/wetalk/routers/admin"
-	"github.com/beego/wetalk/routers/api"
-	"github.com/beego/wetalk/routers/attachment"
-	"github.com/beego/wetalk/routers/auth"
-	"github.com/beego/wetalk/routers/base"
-	"github.com/beego/wetalk/routers/page"
-	"github.com/beego/wetalk/routers/post"
-	"github.com/beego/wetalk/setting"
 )
 
 func Initialize() {

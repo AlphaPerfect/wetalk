@@ -15,7 +15,7 @@
 package post
 
 import (
-	"github.com/beego/wetalk/modules/models"
+	"github.com/alphaperfect/wetalk/modules/models"
 )
 
 func ListCategories(cats *[]models.Category) (int64, error) {

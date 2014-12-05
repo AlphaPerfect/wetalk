@@ -17,7 +17,7 @@ package admin
 import (
 	"github.com/astaxie/beego/orm"
 
-	"github.com/beego/wetalk/modules/models"
+	"github.com/alphaperfect/wetalk/modules/models"
 )
 
 type AdminRouter struct {
