@@ -9,4 +9,3 @@ go get -u -v github.com/howeyc/fsnotify
 go get -u -v github.com/nfnt/resize
 go get -u -v github.com/slene/blackfriday
 go get -u -v github.com/qiniu/api
-go get -u -v github.com/qiniu/bytes
